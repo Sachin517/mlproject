@@ -1,6 +1,6 @@
 import os
 import sys
-from dataclasses import dataclass
+from dataclasses import dataclass # type: ignore
 
 from catboost import CatBoostRegressor
 from sklearn.ensemble import (
